@@ -1,0 +1,30 @@
+h1, h2 {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+  background-color: #b9ded8;
+  text-align: center;
+}
+
+h2 {
+  background-color: #b9cfde;
+}
+
+.recipe-list, .description, .steps, .ingredients {
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: #c8c8e1;
+}
+
+.recipe-list, .description {
+  font-size: 20px;
+}
+
+.steps, .ingredients {
+  font-size: 18px;
+}
+
+img {
+  height: 250;
+  width: auto;
+}
