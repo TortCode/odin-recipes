@@ -13,7 +13,10 @@ h2 {
 
 .recipe-list, .description, .steps, .ingredients {
   font-family: Verdana, Tahoma, sans-serif;
-  background-color: #c8c8e1;
+}
+
+.description, .steps, .ingredients {
+  background-color: #c2c7f7;
 }
 
 .recipe-list, .description {
@@ -27,4 +30,18 @@ h2 {
 img {
   height: 250;
   width: auto;
+}
+
+.recipe-list {
+  list-style: none;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f9cbf2;
+}
+
+.recipe-item {
+  background-color: #e9c6ff;
+  padding: 10px;
+  margin: 20px 0;
 }
